@@ -12,6 +12,8 @@ module.exports = withInterceptStdout(
     experimental: {
       scrollRestoration: true,
     },
+    output: 'export',
+    trailingSlash: true,
   },
   (text) => (text.includes('Duplicate atom key') ? '' : text),
 );
