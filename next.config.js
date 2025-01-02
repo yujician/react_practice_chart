@@ -14,7 +14,6 @@ module.exports = withInterceptStdout(
     },
     output: 'export',
     trailingSlash: true,
-    distDir: './practice', // 出力先を変更
   },
   (text) => (text.includes('Duplicate atom key') ? '' : text),
 );
