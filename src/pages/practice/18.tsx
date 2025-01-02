@@ -56,7 +56,7 @@ const Page: NextPage = () => {
                 </div>
 
                 {/* 日付フィルター */}
-                <div className="item-center mt-8 flex justify-between">
+                <div className="mt-8 flex items-center justify-between">
                   <span className="text-base">日付フィルター</span>
                   <input
                     onChange={handleChangeFilterDate}

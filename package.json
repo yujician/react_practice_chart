@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3335",
-    "build": "postcss src/styles/globals.css -o public/styles.css && next build",
+    "build": "npx postcss src/styles/globals.css -o public/styles.css && next build",
     "start": "next start -p 4000",
     "check:types": "tsc --noEmit",
     "lint": "next lint --dir src",
@@ -27,10 +27,10 @@
     "react-hook-form": "^7.33.1",
     "react-icons": "^5.0.1",
     "react-select": "^5.4.0",
+    "recoil": "^0.7.5",
     "sass": "^1.53.0",
     "swr": "^2.2.5",
-    "zod": "^3.20.6",
-    "recoil": "^0.7.5"
+    "zod": "^3.20.6"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
@@ -51,6 +51,7 @@
     "lint-staged": "^15.2.2",
     "next-intercept-stdout": "^1.0.1",
     "postcss": "^8.4.14",
+    "postcss-cli": "^11.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.1.4",

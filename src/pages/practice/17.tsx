@@ -46,7 +46,7 @@ const Page: NextPage = () => {
                   {taskList.map((task, index) => (
                     <li
                       key={index}
-                      className={`border-grey-200 flex items-center justify-between border-b py-2 ${task.completed ? 'line-through' : ''}`}
+                      className={`flex items-center justify-between border-b border-gray-200 py-2 ${task.completed ? 'line-through' : ''}`}
                     >
                       {task.label}
                       <div className="flex gap-x-2">

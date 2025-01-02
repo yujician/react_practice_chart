@@ -40,7 +40,7 @@ const Page: NextPage = () => {
                     {memoList.map((memo, index) => (
                       <li
                         key={index}
-                        className="border-grey flex items-center justify-between border-b py-2 text-sm"
+                        className="border-gray flex items-center justify-between border-b py-2 text-sm"
                       >
                         {memo}
                         <Button

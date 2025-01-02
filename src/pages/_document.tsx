@@ -28,6 +28,9 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
             rel="stylesheet"
           />
+
+          {/* TailwindCSSのビルド結果（styles.css）を読み込む */}
+          <link rel="stylesheet" href="/styles.css" />
         </Head>
         <body>
           <Main />
